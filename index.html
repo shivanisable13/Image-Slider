@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Slideshow container -->
+    <div class="slider">
+
+         <!-- Full-width images with number text -->
+        <div class="slides">
+            <div class="numbertext">1/6</div>
+            <img src="img/amzon.jpg" height="600" width="1500"></div>
+
+ <div class="slides">
+    <div class="numbertext">2/6</div>
+        <img src="img/kashmir.jpg" height="600" width="1500"></div>
+
+             <div class="slides">
+                <div class="numbertext">3/6</div>
+                <img src="img/farm.jpg" height="600" width="1500"></div>
+
+                <div class="slides">
+                    <div class="numbertext">4/6</div>
+                    <img src="img/kokan.jpg" height="600" width="1500"></div>
+
+                     <div class="slides">
+                        <div class="numbertext">5/6</div>
+                        <img src="img/flower.jpg" height="600" width="1500"></div>
+
+                        <div class="slides">
+                            <div class="numbertext">6/6</div>
+                            <img src="img/water.jpg" height="600" width="1500"></div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>  
+
+            <!-- caption text -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/amzon.jpg" height="80" onclick="currentSlide(1)" alt="Amzon forest">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="img/kashmir.jpg" height="80" onclick="currentSlide(2)" alt="Paradise on Earth">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="img/farm.jpg" height="80" onclick="currentSlide(3)" alt="Green Farm">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="img/kokan.jpg" height="80" onclick="currentSlide(4)" alt="kokan">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="img/flower.jpg" height="80" onclick="currentSlide(5)" alt="flower">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="img/water.jpg" height="80" onclick="currentSlide(6)" alt="waterfall">
+                </div>
+            </div> 
+        </div>
+    <script src="index.js">
+         </script>
+</body>
+</html>
